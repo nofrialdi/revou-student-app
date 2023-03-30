@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Home = () => {
   const [displayid, displayidupdate] = useState("");
   const [memberlist, memberupdate] = useState([]);
   const [showmenu, showmenuupdateupdate] = useState(false);
-  const usenavigate = useNavigate();
+  // const usenavigate = useNavigate();
   const location = useLocation();
 
   //get userid users (session storage)
@@ -16,7 +16,7 @@ const Home = () => {
       showmenuupdateupdate(true);
       let id = sessionStorage.getItem("id");
       if (id === "" || id === null) {
-        usenavigate("/");
+        // usenavigate("/");
       } else {
         displayidupdate(id);
       }
