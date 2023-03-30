@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "password": "admin123",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "aldi31193",
+      "password": "aldi123",
+      "email": "aldi@gmail.com"
+    },
+    {
+      "id": "nofri31193",
+      "password": "aldi31193",
+      "email": "aldi@gmail.com"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "nofrialdi",
+      "email": "nofri@gmail.com",
+      "phone": "089612022458",
+      "status": "student"
+    }
+  ]
+}
